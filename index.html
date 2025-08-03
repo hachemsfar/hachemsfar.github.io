@@ -1,35 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hachem Sfar - Portfolio & CV</title>
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
-  <style>
-    body { margin:0; font-family:'Josefin Sans',sans-serif; background:#fdfdfd; color:#222; line-height:1.6;}
-    h1,h2,h3 { font-weight:700; color:#1c1c1c; margin-bottom:10px;}
-    h2.section-title { text-align:center; margin:60px 0 30px; font-size:2rem;}
-    section { padding:40px 0;}
-    .container { max-width:1100px; margin:auto; padding:0 20px;}
-    .hero { background:#fff; text-align:center; padding:60px 20px; border-bottom:1px solid #eee;}
-    .hero img { width:220px; height:220px; object-fit:cover; border-radius:50%; margin-top:15px;}
-    .social-links { text-align:center; margin:20px 0;}
-    .social-links a { margin:0 10px; font-size:1.2rem; color:#1d4ed8; text-decoration:none;}
-    ul.resume-list { list-style:none; padding:0;}
-    ul.resume-list li { background:#fff; margin-bottom:20px; padding:15px; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.05);}
-    ul.resume-list li h3 { color:#1d4ed8; margin:0;}
-    ul.resume-list li h4 { margin:5px 0; font-weight:400; color:#555;}
-    .img-placeholder { width:120px; height:120px; background:#eee; display:block; margin-top:10px; border-radius:8px;}
-    .projects-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px;}
-    .project-card { background:#fff; padding:15px; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.05);}
-    .project-card h4 { color:#1d4ed8;}
-    .project-card .img-placeholder { width:100%; height:140px; margin-bottom:10px;}
-    .skills-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px;}
-    .skills-category { background:#fff; padding:15px; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.05);}
-    .skills-category h4 { color:#1d4ed8;}
-    .contact { text-align:center; background:#f8f8f8; padding:40px 20px;}
-    @media(max-width:768px){ .hero h1{font-size:2rem;} }
-  </style>
+	<title>Personal Web Site</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Civic - CV Resume">
+	<meta name="keywords" content="resume, civic, onepage, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->   
+	<link href="img/icon/logo.png" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
 	<!-- Hero section start -->
@@ -41,17 +30,16 @@
 						<div class="col-lg-6">
 							<div class="hero-text">
 								<h2 id="hachem">Hachem SFAR</h2>
-								<p>Data Engineer <a  href="https://init-software.de/" target="_blank"> <span class="designer">@INIT gmbh </span></a> </p>
-								<p>ML Freelancer <a  href="https://www.socialmediaguys.de/" target="_blank"> <span class="designer">@SMG gmbh</span></a> </p>
-								<p>IA Mentor  <a  href="https://techlabs.org/" target="_blank"> <span class="designer">@Techlabs</span></a> </p>
-								<p>Data science Teacher <a  href="https://www.redi-school.org/" target="_blank"> <span class="designer">@Redi School</span></a> </p>
-
+								<h4>Data Scientist | Data Engineer | Machine Learning Specialist</h4>
+								<p><b>Location:</b> Munich, Bavaria, Germany</p>
+								<p><b>Contact:</b> (+49) 178 4518406 • hachemsfar@gmail.com • <a href="https://github.com/hachemsfar">GitHub</a> • <a href="https://linkedin.com/in/hachemsfar">LinkedIn</a></p>
+								<p><b>Skills:</b> Azure Data Factory • Microsoft Fabric • Power BI • Machine Learning • Data Engineering • Python • Scala • SQL • Cloud Computing (Azure/AWS)</p>
 							</div>
-							
 						</div>
 						<div class="col-lg-6">
 							<figure class="hero-image">
-								<img src="img/hachem.jpg" alt="5">
+								<!-- Placeholder for your image -->
+								<img src="img/placeholder.jpg" alt="Profile Image">
 							</figure>
 						</div>
 					</div>
@@ -61,178 +49,180 @@
 	</section>
 	<!-- Hero section end -->
 
-<!-- Social Links -->
-<div class="social-links">
-  <a href="https://www.linkedin.com/in/hachemsfar/">LinkedIn</a>
-  <a href="https://github.com/hachemsfar">GitHub</a>
-  <a href="mailto:hachemsfar@gmail.com">Email</a>
-</div>
+	<!-- Experience section start -->
+	<section class="resume-section spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-10 offset-xl-2">
+					<div class="section-title">
+						<h2>Experience</h2>
+					</div>
+					<ul class="resume-list">
+						<li>
+							<h2>Machine Learning & BI Lecturer (Freelance) | EU Business School</h2>
+							<h4>Jan. 2025 – Jun. 2025</h4>
+							<p>Taught Machine Learning & Business Intelligence to Master’s students.</p>
+							<p><b>Tech:</b> Python, Power BI, SQL, ML Frameworks</p>
+						</li>
+						<li>
+							<h2>Data Engineer | Amadeus Fire</h2>
+							<h4>Oct. 2024 – Present</h4>
+							<p>Built Azure Data Factory pipelines, Microsoft Fabric dataflows, and Power BI dashboards.</p>
+							<p><b>Tech:</b> ADF, Microsoft Fabric, Power BI, SQL, Azure, Python</p>
+						</li>
+						<li>
+							<h2>LLM Developer (Freelance) | Mongoseed AI</h2>
+							<h4>Apr. 2024 – May. 2024</h4>
+							<p>Created LLM tools for GDPR compliance and automated legal workflows.</p>
+							<p><b>Tech:</b> Python, LLM, Streamlit</p>
+						</li>
+						<li>
+							<h2>Backend Developer (Freelance) | PARAVAN GmbH</h2>
+							<h4>Jan. 2024 – Oct. 2024</h4>
+							<p>Developed backend for travel expense automation integrated with ABAS ERP.</p>
+							<p><b>Tech:</b> Python, Django, PostgreSQL, MS Graph</p>
+						</li>
+						<li>
+							<h2>Machine Learning Specialist (Freelance) | Holo Light / BMW AG</h2>
+							<h4>Oct. 2023 – Dec. 2023</h4>
+							<p>Built ML models predicting driver behavior using sensor and location data.</p>
+							<p><b>Tech:</b> Python, AWS, Streamlit, Data Visualization, ML</p>
+						</li>
+						<li>
+							<h2>Data Engineer Consultant | INIT GmbH</h2>
+							<h4>Aug. 2022 – Oct. 2023</h4>
+							<p>Developed Kafka connectors for SAP systems on the Confluent platform.</p>
+							<p><b>Tech:</b> Scala, Java, Kafka Connect, Docker, Jenkins, SAP</p>
+						</li>
+						<li>
+							<h2>Machine Learning Specialist (Freelance) | Easy Sport Fitness</h2>
+							<h4>Jan. 2022 – Apr. 2022</h4>
+							<p>Built time-series models to forecast gym visitor traffic.</p>
+							<p><b>Tech:</b> Python, FastAPI, Streamlit, NeuralProphet</p>
+						</li>
+						<li>
+							<h2>Data Analyst / Data Scientist (Working Student) | E.ON</h2>
+							<h4>Oct. 2019 – Sept. 2021</h4>
+							<p>Supported projects in data analysis, NLP, and web development.</p>
+							<p><b>Tech:</b> Python, Pandas, SQL, Azure, Snowflake, Streamlit</p>
+						</li>
+						<li>
+							<h2>Data Scientist (Internship) | Attila AI</h2>
+							<h4>Jan. 2018 – May. 2018</h4>
+							<p>Developed an intelligent recommendation system for personalized products.</p>
+							<p><b>Tech:</b> Python, Scikit-learn, Keras, ML Algorithms</p>
+						</li>
+						<li>
+							<h2>Software Engineer (Internship) | Sagemcom</h2>
+							<h4>Oct. 2017 – Dec. 2017</h4>
+							<p>Built a desktop application for visitor registration.</p>
+							<p><b>Tech:</b> Python, Flask, MySQL</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Experience section end -->
 
-<!-- About Me -->
-<section class="container">
-  <h2 class="section-title">About Me</h2>
-  <p>I am a Data Scientist and Data Engineer specializing in building scalable data pipelines, machine learning models, and business intelligence dashboards. 
-  At <b>Amadeus Fire</b>, I manage the full Microsoft Fabric and Azure Data Factory (ADF) stack to deliver ETL pipelines and Power BI dashboards. 
-  I also teach Machine Learning and Business Intelligence to Master’s students at <b>EU Business School</b>.</p>
-</section>
+	<!-- Trainings section -->
+	<section class="resume-section spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-10 offset-xl-2">
+					<div class="section-title">
+						<h2>Trainings</h2>
+					</div>
+					<ul class="resume-list">
+						<li>
+							<h2>KfW | Tomorrow University Online</h2>
+							<h4>Nov. 2022 – Jan. 2023</h4>
+							<p>Data Science for Leaders Program: Forecasted EV charging needs using ML models and built a web app for investment analysis.</p>
+							<p><b>Tech:</b> Python, Streamlit, NeuralProphet, DBScan</p>
+						</li>
+						<li>
+							<h2>DataScience Academy</h2>
+							<h4>Jun. 2018 – Aug. 2018</h4>
+							<p>Completed training in data prep, web scraping, ML, and deep learning using real-world data.</p>
+							<p><b>Tech:</b> Python, Scikit-learn, TensorFlow</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
 
-<!-- Experience -->
-<section class="container">
-  <h2 class="section-title">Experience</h2>
-  <ul class="resume-list">
-    <li>
-      <h3>Data Engineer | Amadeus Fire</h3>
-      <h4>Oct. 2024 – Present</h4>
-      <p>Designed ADF pipelines, Microsoft Fabric dataflows, and Power BI dashboards.</p>
-      <span class="img-placeholder">[Logo]</span>
-    </li>
-    <li>
-      <h3>Machine Learning & BI Lecturer | EU Business School</h3>
-      <h4>Jan. 2025 – Jun. 2025</h4>
-      <p>Taught Machine Learning & Business Intelligence to Master’s students.</p>
-      <span class="img-placeholder">[Logo]</span>
-    </li>
-    <li>
-      <h3>LLM Developer | Mongoseed AI</h3>
-      <h4>Apr. 2024 – May. 2024</h4>
-      <p>Created GDPR compliance LLM tools and automated legal workflows.</p>
-      <span class="img-placeholder">[Logo]</span>
-    </li>
-    <li>
-      <h3>Backend Developer | PARAVAN GmbH</h3>
-      <h4>Jan. 2024 – Oct. 2024</h4>
-      <p>Built backend for ABAS ERP-integrated travel expense automation.</p>
-      <span class="img-placeholder">[Logo]</span>
-    </li>
-    <li>
-      <h3>Data Engineer Consultant | INIT GmbH</h3>
-      <h4>Aug. 2022 – Oct. 2023</h4>
-      <p>Developed Kafka connectors for SAP systems on Confluent platform.</p>
-      <span class="img-placeholder">[Logo]</span>
-    </li>
-    <li>
-      <h3>Machine Learning Specialist | BMW/Holo Light</h3>
-      <h4>Oct. 2023 – Dec. 2023</h4>
-      <p>Built predictive ML models for driver behavior using sensor and location data.</p>
-      <span class="img-placeholder">[Logo]</span>
-    </li>
-    <li>
-      <h3>Data Analyst / Data Scientist | E.ON</h3>
-      <h4>Oct. 2019 – Sept. 2021</h4>
-      <p>Worked on NLP, dashboards, and data analysis pipelines.</p>
-      <span class="img-placeholder">[Logo]</span>
-    </li>
-    <li>
-      <h3>Data Scientist (Internship) | Attila AI</h3>
-      <h4>Jan. 2018 – May. 2018</h4>
-      <p>Built recommendation system using ML algorithms.</p>
-      <span class="img-placeholder">[Logo]</span>
-    </li>
-    <li>
-      <h3>Software Engineer (Internship) | Sagemcom</h3>
-      <h4>Oct. 2017 – Dec. 2017</h4>
-      <p>Built visitor tracking system with RFID & LoRa.</p>
-      <span class="img-placeholder">[Logo]</span>
-    </li>
-  </ul>
-</section>
+	<!-- Projects section -->
+	<section class="resume-section with-bg spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-10 offset-xl-2">
+					<div class="section-title">
+						<h2>Projects</h2>
+					</div>
+					<ul class="resume-list">
+						<li>
+							<h2>LinkedIn Job Market Analysis</h2>
+							<p>Automated LinkedIn job scraping to identify top roles and skills in Germany.</p>
+							<p><b>Tech:</b> Python, Airflow, ETL, Data Analysis</p>
+						</li>
+						<li>
+							<h2>Immoscout24 Data Pipeline</h2>
+							<p>Built ETL pipeline with ML forecasting and visualization for real estate data.</p>
+							<p><b>Tech:</b> Python, Airflow, MongoDB</p>
+						</li>
+						<li>
+							<h2>NLP Projects</h2>
+							<p>Game of Thrones Chatbot (LLM Q&A), Celebrity Profiling (Twitter demographics), Patent Classification (XML text classification).</p>
+							<p><b>Tech:</b> Python, BERT, NLP</p>
+						</li>
+						<li>
+							<h2>Web Scraping Projects</h2>
+							<p>Created Udemy web scraping course; built anime data pipeline and passport power map.</p>
+							<p><b>Tech:</b> Python, Scrapy, BeautifulSoup</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
 
-<!-- Projects -->
-<section class="container">
-  <h2 class="section-title">Projects</h2>
-  <div class="projects-grid">
-    <div class="project-card">
-      <div class="img-placeholder">[Image]</div>
-      <h4>EV Charging Infrastructure Forecasting</h4>
-      <p>Analyzed and forecasted EV charging stations in Germany using ML models.</p>
-    </div>
-    <div class="project-card">
-      <div class="img-placeholder">[Image]</div>
-      <h4>German Real Estate Market Pipeline</h4>
-      <p>ETL pipeline with Airflow and ML forecasting for ImmobilienScout24 data.</p>
-    </div>
-    <div class="project-card">
-      <div class="img-placeholder">[Image]</div>
-      <h4>Celebrity Profiling – PAN 2020</h4>
-      <p>Predicted demographics of celebrities via Twitter using NLP and BERT.</p>
-    </div>
-    <div class="project-card">
-      <div class="img-placeholder">[Image]</div>
-      <h4>Patent Classification</h4>
-      <p>Automated XML patent text classification using BERT embeddings.</p>
-    </div>
-  </div>
-</section>
+	<!-- Hackathons -->
+	<section class="resume-section spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-10 offset-xl-2">
+					<div class="section-title">
+						<h2>Hackathons</h2>
+					</div>
+					<ul class="resume-list">
+						<li><b>Visa Climate Tech Hackathon 2024</b> – Online – <b>Tech:</b> Python, GenAI, OCR</li>
+						<li><b>Siemens Tech for Sustainability</b> – Munich – Ranked 1/30 – <b>Tech:</b> Python, Streamlit, LLM</li>
+						<li><b>Tourism Technology Festival</b> – Salzburg – <b>Tech:</b> Python, NeuralProphet</li>
+						<li><b>AI for Education Hackathon</b> – Passau – Ranked 1/5</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
 
-<!-- Volunteer -->
-<section class="container">
-  <h2 class="section-title">Volunteer Experience</h2>
-  <ul class="resume-list">
-    <li>
-      <h3>Organiser - Hour of Code | Code.org</h3>
-      <h4>Feb. 2016</h4>
-      <p>Organized "Hour of Code" programming event for rural students.</p>
-      <span class="img-placeholder">[Logo]</span>
-    </li>
-    <li>
-      <h3>Mentor - Teens in AI Hackathon</h3>
-      <h4>Mar. 2022</h4>
-      <p>Guided teenagers to develop AI solutions for UN SDGs.</p>
-      <span class="img-placeholder">[Logo]</span>
-    </li>
-    <li>
-      <h3>Member - Tun'Up Munich e.V.</h3>
-      <h4>May 2021 – Present</h4>
-      <p>Organized SAP Meet & Code training in LaTeX and Streamlit.</p>
-      <span class="img-placeholder">[Logo]</span>
-    </li>
-  </ul>
-</section>
-
-<!-- Education -->
-<section class="container">
-  <h2 class="section-title">Education</h2>
-  <ul class="resume-list">
-    <li>
-      <h3>Master in Computer Science | Universität Passau</h3>
-      <h4>2018 – 2021</h4>
-      <p>Specialization in Data Science & Engineering.</p>
-      <span class="img-placeholder">[Logo]</span>
-    </li>
-    <li>
-      <h3>Telecom Engineering | SUP’COM</h3>
-      <h4>2015 – 2018</h4>
-      <span class="img-placeholder">[Logo]</span>
-    </li>
-  </ul>
-</section>
-
-<!-- Skills -->
-<section class="container">
-  <h2 class="section-title">Skills</h2>
-  <div class="skills-grid">
-    <div class="skills-category"><h4>Programming</h4><p>Python, Java, Scala, SQL, FastAPI, Django, Flask</p></div>
-    <div class="skills-category"><h4>Data & Cloud</h4><p>Azure Data Factory, Microsoft Fabric, Power BI, Databricks</p></div>
-    <div class="skills-category"><h4>Machine Learning</h4><p>ML, NLP, Deep Learning, Time Series Forecasting</p></div>
-  </div>
-</section>
-
-<!-- Contact -->
-<section class="contact">
-  <h2>Contact Me</h2>
-  <p>Email: hachemsfar@gmail.com | Phone: (+49) 178 4518406 | Location: Germany</p>
-</section>
-
-<footer class="contact">
-  <p>&copy; <script>document.write(new Date().getFullYear());</script> Hachem Sfar. All rights reserved.</p>
-</footer>
-
-	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/magnific-popup.min.js"></script>
-	<script src="js/circle-progress.min.js"></script>
-	<script src="js/main.js"></script>
+	<!-- Volunteer Experience -->
+	<section class="resume-section spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-10 offset-xl-2">
+					<div class="section-title">
+						<h2>Volunteer Experience</h2>
+					</div>
+					<ul class="resume-list">
+						<li><b>Data Science Teacher & Full‑stack Course Creator</b> – ReDI School of Digital Integration (Apr. 2022 – Jul. 2023)</li>
+						<li><b>Mentor</b> – Techlabs e.V. (Nov. 2021 – May. 2023)</li>
+						<li><b>Organization Team</b> – European Championships Munich 2022 (Jun. 2022 – Aug. 2022)</li>
+						<li><b>General Secretary</b> – Tun’Up Munich e.V. (May. 2021 – Present)</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
 </body>
 </html>
