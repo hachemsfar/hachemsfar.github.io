@@ -1,166 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Hachem Sfar - Portfolio & CV</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="Portfolio and CV Website for Hachem Sfar">
-    <meta name="keywords" content="resume, portfolio, data science, engineer">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="img/icon/logo.png" rel="shortcut icon"/>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
-    <style>
-        /* Extra responsive tweaks */
-        img { max-width: 100%; height: auto; }
-        .hero-text h2 { font-size: 2.2rem; }
-        .hero-text p { font-size: 1rem; }
-        @media(max-width:768px){
-            .hero-text { text-align: center; }
-            .hero-image { text-align: center; margin-top: 20px; }
-        }
-        ul.resume-list li { margin-bottom: 30px; }
-        .section-title h2 { font-weight: 700; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hachem Sfar - Portfolio & CV</title>
+  <style>
+    body { margin:0; font-family:'Josefin Sans',sans-serif; background:#fdfdfd; color:#222; line-height:1.6;}
+    h1,h2,h3 { font-weight:700; margin-bottom:10px; color:#1c1c1c;}
+    h2.section-title { text-align:center; margin:60px 0 30px; font-size:2rem;}
+    p { margin-bottom:10px;}
+    img { max-width:100%; height:auto; border-radius:6px;}
+    section { padding:40px 0;}
+    .container { max-width:1100px; margin:auto; padding:0 20px;}
+    .hero { background:#fff; text-align:center; padding:60px 20px; border-bottom:1px solid #eee;}
+    .hero h1 { font-size:2.5rem;}
+    .hero p { font-size:1.1rem;}
+    .social-links { text-align:center; margin:20px 0;}
+    .social-links a { margin:0 10px; font-size:1.2rem; color:#1d4ed8; text-decoration:none;}
+    ul.resume-list { list-style:none; padding:0;}
+    ul.resume-list li { background:#fff; margin-bottom:20px; padding:15px; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.05);}
+    ul.resume-list li h3 { margin:0; color:#1d4ed8;}
+    ul.resume-list li h4 { margin:5px 0; font-weight:400; color:#555;}
+    .resume-img { margin-top:10px; max-height:80px;}
+    .projects-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px;}
+    .project-card { background:#fff; padding:15px; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.05);}
+    .project-card h4 { color:#1d4ed8;}
+    .project-img { margin-top:10px; max-height:120px;}
+    .skills-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px;}
+    .skills-category { background:#fff; padding:15px; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.05);}
+    .skills-category h4 { color:#1d4ed8;}
+    .contact { text-align:center; background:#f8f8f8; padding:40px 20px;}
+    @media(max-width:768px){ .hero h1{font-size:2rem;} }
+  </style>
 </head>
 <body>
 
-<!-- Page Preloader -->
-<div id="preloder">
-    <div class="loader"></div>
-</div>
-
-<!-- Header -->
-<header class="header-section">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h1 class="site-title">Portfolio & CV</h1>
-            </div>
-        </div>
-    </div>
-</header>
-
-<!-- Hero Section -->
-<section class="hero-section spad">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="hero-text">
-                    <h2>Hachem SFAR</h2>
-                    <p>Data Engineer | Data Scientist | Machine Learning Specialist</p>
-                    <p>Azure Data Factory • Microsoft Fabric • Power BI • ML • Data Engineering</p>
-                </div>
-            </div>
-            <div class="col-lg-6 text-center">
-                <figure class="hero-image">
-                    <img src="img/hachem.jpg" alt="Hachem Sfar">
-                </figure>
-            </div>
-        </div>
-    </div>
+<!-- Hero -->
+<section class="hero">
+  <h1>Hachem Sfar</h1>
+  <p>Data Scientist | Data Engineer | Machine Learning Specialist</p>
+  <p>Azure Data Factory • Microsoft Fabric • Power BI • Machine Learning • Data Engineering</p>
+  <div><img src="img/hachem.jpg" alt="Profile Photo Placeholder"></div>
 </section>
 
 <!-- Social Links -->
-<div class="social-section">
-    <div class="container-fluid">
-        <div class="social-link-warp text-center">
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/hachemsfar/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                <a href="http://github.com/hachemsfar/" target="_blank"><i class="fa fa-github"></i></a>
-                <a href="https://www.facebook.com/sfarhachem" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.xing.com/profile/Hachem_SFAR/cv" target="_blank"><i class="fa fa-xing"></i></a>
-                <a href="img/Hachem SFAR__Resume.pdf" download="Hachem_SFAR_Resume.pdf"><i class="fa fa-file"></i></a>
-            </div>
-        </div>
-    </div>
+<div class="social-links">
+  <a href="https://www.linkedin.com/in/hachemsfar/">LinkedIn</a>
+  <a href="https://github.com/hachemsfar">GitHub</a>
+  <a href="mailto:hachemsfar@gmail.com">Email</a>
 </div>
 
-<!-- About Me -->
-<section class="about-section spad">
-    <div class="container">
-        <div class="section-title text-center">
-            <h2>About Me</h2>
-        </div>
-        <p class="text-center">
-            I am a Data Scientist and Data Engineer with expertise in data pipelines, machine learning, and business intelligence.
-            At <b>Amadeus Fire</b>, I manage Microsoft Fabric and Azure Data Factory (ADF), building ETL pipelines and advanced Power BI dashboards.
-            I have taught Machine Learning and Business Intelligence to Master’s students at <b>EU Business School</b>, bridging technical ML concepts with business applications.
-        </p>
-    </div>
+<!-- About -->
+<section class="container">
+  <h2 class="section-title">About Me</h2>
+  <p>I am a Data Scientist and Data Engineer specializing in building scalable data pipelines, machine learning models, and business intelligence dashboards. At <b>Amadeus Fire</b>, I manage the full Microsoft Fabric and Azure Data Factory (ADF) stack to deliver ETL pipelines and Power BI dashboards. I also teach Machine Learning and Business Intelligence to Master’s students at <b>EU Business School</b>.</p>
 </section>
 
 <!-- Experience -->
-<section class="resume-section spad">
-    <div class="container">
-        <div class="section-title text-center">
-            <h2>Experience</h2>
-        </div>
-        <ul class="resume-list">
-            <li><h3>Data Engineer | Amadeus Fire</h3><h4>Oct. 2024 – Present</h4><p>Built ADF pipelines, Microsoft Fabric dataflows, and Power BI dashboards.</p><img src="img/amadeus.png" alt="Amadeus Fire Logo"></li>
-            <li><h3>Machine Learning & BI Lecturer | EU Business School</h3><h4>Jan. 2025 – Jun. 2025</h4><p>Taught Machine Learning & Business Intelligence to Master’s students.</p><img src="img/eu-business.png" alt="EU Business Logo"></li>
-            <li><h3>LLM Developer | Mongoseed AI</h3><h4>Apr. 2024 – May. 2024</h4><p>Created LLM tools for GDPR compliance and automated legal workflows.</p></li>
-            <li><h3>Backend Developer | PARAVAN GmbH</h3><h4>Jan. 2024 – Oct. 2024</h4><p>Developed backend for travel expense automation integrated with ABAS ERP.</p><img src="img/paravan.png" alt="PARAVAN Logo"></li>
-            <li><h3>Machine Learning Specialist | BMW / Holo Light</h3><h4>Oct. 2023 – Dec. 2023</h4><p>Built ML models predicting driver behavior using sensor and location data.</p><img src="img/bmw.png" alt="BMW Logo"></li>
-            <li><h3>Data Engineer Consultant | INIT GmbH</h3><h4>Aug. 2022 – Oct. 2023</h4><p>Developed Kafka connectors for SAP systems on Confluent platform.</p><img src="img/init.png" alt="INIT Logo"></li>
-            <li><h3>Machine Learning Specialist | Easy Sport Fitness</h3><h4>Jan. 2022 – Apr. 2022</h4><p>Built time-series models to forecast gym visitor traffic.</p><img src="img/easysport.png" alt="Easy Sport Logo"></li>
-            <li><h3>Data Analyst / Data Scientist | E.ON</h3><h4>Oct. 2019 – Sept. 2021</h4><p>Supported projects in data analysis, NLP, and web development.</p><img src="img/eon.png" alt="E.ON Logo"></li>
-            <li><h3>Data Scientist (Internship) | Attila AI</h3><h4>Jan. 2018 – May. 2018</h4><p>Developed an intelligent recommendation system for personalized products.</p><img src="img/attila.webp" alt="Attila AI Logo"></li>
-            <li><h3>Software Engineer (Internship) | Sagemcom</h3><h4>Oct. 2017 – Dec. 2017</h4><p>Built a desktop application for visitor registration using Flask and MySQL.</p><img src="img/sagem.png" alt="Sagemcom Logo"></li>
-        </ul>
-    </div>
+<section class="container">
+  <h2 class="section-title">Experience</h2>
+  <ul class="resume-list">
+    <li>
+      <h3>Data Engineer | Amadeus Fire</h3>
+      <h4>Oct. 2024 – Present</h4>
+      <p>Designed ADF pipelines, Microsoft Fabric dataflows, Power BI dashboards, and advanced analytics solutions.</p>
+      <img src="img/amadeus.png" alt="Amadeus Logo" class="resume-img">
+    </li>
+    <li>
+      <h3>Machine Learning & BI Lecturer | EU Business School</h3>
+      <h4>Jan. 2025 – Jun. 2025</h4>
+      <p>Taught ML & Business Intelligence to Master’s students.</p>
+      <img src="img/eu-business.png" alt="EU Business Logo" class="resume-img">
+    </li>
+    <li>
+      <h3>LLM Developer | Mongoseed AI</h3>
+      <h4>Apr. 2024 – May. 2024</h4>
+      <p>Created GDPR compliance LLM tools and automated legal workflows.</p>
+      <img src="img/mongoseed.png" alt="Mongoseed Logo" class="resume-img">
+    </li>
+    <li>
+      <h3>Backend Developer | PARAVAN GmbH</h3>
+      <h4>Jan. 2024 – Oct. 2024</h4>
+      <p>Built backend for ABAS ERP-integrated travel expense automation.</p>
+      <img src="img/paravan.png" alt="Paravan Logo" class="resume-img">
+    </li>
+    <li>
+      <h3>Data Engineer Consultant | INIT GmbH</h3>
+      <h4>Aug. 2022 – Oct. 2023</h4>
+      <p>Developed Kafka connectors for SAP on Confluent platform with Scala/Java.</p>
+      <img src="img/init.png" alt="INIT Logo" class="resume-img">
+    </li>
+    <!-- Add all other experiences following same pattern -->
+  </ul>
 </section>
 
 <!-- Projects -->
-<section class="portfolio-section spad">
-    <div class="container">
-        <div class="section-title text-center">
-            <h2>Projects</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-6"><h4>LinkedIn Job Market Analysis</h4><p>Automated job scraping to identify top skills in Germany.</p><img src="img/linkedin-project.png" alt="LinkedIn Project"></div>
-            <div class="col-md-6"><h4>Immoscout24 Data Pipeline</h4><p>Built ETL pipeline with ML forecasting and visualization for real estate data.</p><img src="img/immoscout.png" alt="Immoscout Project"></div>
-            <div class="col-md-6"><h4>Game of Thrones Chatbot (NLP)</h4><p>Fine-tuned LLM for interactive Q&A.</p><img src="img/chatbot.png" alt="Chatbot Project"></div>
-            <div class="col-md-6"><h4>Celebrity Profiling – PAN 2020</h4><p>Developed ML model to predict demographics from Twitter feeds.</p><img src="img/pan.png" alt="PAN Project"></div>
-        </div>
+<section class="container">
+  <h2 class="section-title">Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <h4>EV Charging Infrastructure Forecasting</h4>
+      <p>Forecasted EV charging stations across German states using ML. Keywords: Python, Pandas, NeuralProphet, DBScan, Streamlit.</p>
+      <img src="img/ev-project.png" alt="EV Project Screenshot" class="project-img">
     </div>
+    <div class="project-card">
+      <h4>German Real Estate Market Pipeline</h4>
+      <p>Built ETL pipeline with Airflow for ImmobilienScout24 data and ML forecasting.</p>
+      <img src="img/immoscout.png" alt="Real Estate Project" class="project-img">
+    </div>
+    <!-- Add rest of projects with <img> placeholders -->
+  </div>
 </section>
 
-<!-- Certifications (kept original slider) -->
-<section class="testimonials_area section-gap spad pb-0">
-    <div class="container">
-        <div class="section-title text-center">
-            <h2>Certifications</h2>
-        </div>
-        <div class="testi_slider owl-carousel">
-            <!-- Original certification images -->
-            <div class="item"><img class="certifc" src="img/coursera.jpg" alt=""><h4>Deep Learning</h4><p>deeplearning.ai</p></div>
-            <div class="item"><img class="certifc" src="img/datacamp.jpg" alt=""><h4>Data Scientist with Python Track</h4><p>datacamp</p></div>
-            <div class="item"><img class="certif" src="img/Big Data.jpg" alt=""><h4>Big Data Developer Mastery Award</h4><p>IBM</p></div>
-            <div class="item"><img class="certif" src="img/tcf.jpg" alt=""><h4>Test de connaissance du français (TCF)</h4><p>Institut français</p></div>
-            <div class="item"><img class="certif" src="img/toiec.png" alt=""><h4>TOEIC</h4><p>AMIDEAST</p></div>
-        </div>
-    </div>
+<!-- Volunteer -->
+<section class="container">
+  <h2 class="section-title">Volunteer Experience</h2>
+  <ul class="resume-list">
+    <li>
+      <h3>Organiser - Hour of Code | Code.org</h3>
+      <h4>Feb 2016</h4>
+      <p>Organized programming intro event for rural students in Tunisia.</p>
+      <img src="img/codeorg.png" alt="Code.org Logo" class="resume-img">
+    </li>
+    <li>
+      <h3>Mentor - Teens in AI Hackathon</h3>
+      <h4>Mar 2022</h4>
+      <p>Guided teenagers to develop AI solution for UN SDGs.</p>
+      <img src="img/teensai.png" alt="Teens in AI Logo" class="resume-img">
+    </li>
+    <!-- Add all other volunteer experiences -->
+  </ul>
+</section>
+
+<!-- Hackathons -->
+<section class="container">
+  <h2 class="section-title">Hackathons & Awards</h2>
+  <ul class="resume-list">
+    <li>
+      <h3>AI for Education Hackathon</h3>
+      <p>Built predictive model for university demographics. Integrated into Streamlit dashboard.</p>
+      <img src="img/hackathon1.png" alt="Hackathon Logo" class="resume-img">
+    </li>
+    <li>
+      <h3>Smart Health Hackathon</h3>
+      <p>Retina Blood Vessel Segmentation with U-Net, Flask web integration.</p>
+      <img src="img/hackathon2.png" alt="Hackathon Logo" class="resume-img">
+    </li>
+  </ul>
+</section>
+
+<!-- Education -->
+<section class="container">
+  <h2 class="section-title">Education</h2>
+  <ul class="resume-list">
+    <li>
+      <h3>Master in Computer Science | Universität Passau</h3>
+      <h4>2018 – 2021</h4>
+      <p>Specialization in Data Science & Engineering.</p>
+      <img src="img/passau.png" alt="Passau Logo" class="resume-img">
+    </li>
+    <li>
+      <h3>Telecom Engineering | SUP’COM</h3>
+      <h4>2015 – 2018</h4>
+      <img src="img/supcom.png" alt="SUPCOM Logo" class="resume-img">
+    </li>
+  </ul>
+</section>
+
+<!-- Skills -->
+<section class="container">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-grid">
+    <div class="skills-category"><h4>Programming</h4><p>Python, Java, Scala, SQL, FastAPI, Django, Flask, JavaScript</p></div>
+    <div class="skills-category"><h4>Data & Cloud</h4><p>Microsoft Fabric, Azure Data Factory, Power BI, Databricks, Snowflake</p></div>
+    <div class="skills-category"><h4>Machine Learning</h4><p>ML, NLP, LLMs, Deep Learning</p></div>
+  </div>
 </section>
 
 <!-- Contact -->
-<section class="contact-section spad">
-    <div class="container text-center">
-        <div class="section-title">
-            <h2>Contact Me</h2>
-        </div>
-        <p>Email: hachemsfar@gmail.com | Phone: (+49) 178 4518406 | Location: Passau, Germany</p>
-    </div>
+<section class="contact">
+  <h2>Contact Me</h2>
+  <p>Email: hachemsfar@gmail.com | Phone: (+49) 178 4518406 | Location: Germany</p>
 </section>
 
-<footer class="footer-section text-center">
-    <p>&copy; <script>document.write(new Date().getFullYear());</script> Hachem Sfar. All rights reserved.</p>
+<footer class="contact">
+  <p>&copy; <script>document.write(new Date().getFullYear());</script> Hachem Sfar. All rights reserved.</p>
 </footer>
 
-<script src="js/jquery-2.1.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/main.js"></script>
 </body>
 </html>
